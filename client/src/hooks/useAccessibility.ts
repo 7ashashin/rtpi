@@ -46,7 +46,7 @@ export function useAriaAnnounce() {
  *
  * return (
  *   <div ref={dialogRef} role="dialog">
- *     {/* Content */}
+ *     {children}
  *   </div>
  * );
  * ```
